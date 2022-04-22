@@ -1,15 +1,12 @@
-@media screen and(max-width:767px) {
+@media screen and (max-width:767px) {
     .header {
         width: 250px;
     }
-    
+    .left {
+        width: 150px;
+    }
     .right {
         width: 100px;
-        right: none;
-    }
-
-    .left {
-        float: none;
     }
     
     .footer {
@@ -17,7 +14,7 @@
     }
 }
 
-@media screen and(max-width:479px) {
+@media screen and (max-width:479px) {
     .header {
         width: 150px;
     }

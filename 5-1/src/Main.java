@@ -16,11 +16,12 @@ public class Main {
 	       List<String> array = new ArrayList<String>();
 //      問② 前から二つ目の要素を"bar"にしましょう。
 //	　<以下記述>
+	       array.add(null);
 	       array.add("bar");
 	       array.add("foo");
 //      問③ fooが格納されているインデックスを出力してください。
 //	　<以下記述>
-	       System.out.println("fooのインデックス:" + array.get(1)); 
+	       System.out.println("fooのインデックス:" + array.indexOf("foo")); 
 		}
 
 		{
@@ -50,7 +51,7 @@ public class Main {
 			Calendar date = Calendar.getInstance();
            
 //	    <以下記述>
-			int [] arrayDate = {date.get(Calendar.YEAR), date.get(Calendar.MONTH), date.get(Calendar.DATE)};
+			int [] arrayDate = {date.get(Calendar.YEAR), date.get(Calendar.MONTH) + 1, date.get(Calendar.DATE)};
 
 
 //      問⑧ 配列arrayDateをList型に変更しましょう。
